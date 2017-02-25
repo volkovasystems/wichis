@@ -1,6 +1,6 @@
 {
   "name": "wichis",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Returns which is deeply truthy.",
   "main": "wichis.deploy.js",
   "support": "wichis.support.js",

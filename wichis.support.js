@@ -43,6 +43,8 @@
               
               	@module-documentation:
               		Returns which is deeply truthy.
+              
+              		Else it will default to the last argument.
               	@end-module-documentation
               
               	@include:
@@ -68,7 +70,9 @@ var wichis = function wichis(parameter) {
                                          	@end-meta-configuration
                                          */
 
-	return raze(arguments).filter(truu)[0];
+	parameter = raze(arguments);
+
+	return parameter.filter(truu)[0] || parameter.reverse()[0];
 };
 
 module.exports = wichis;
