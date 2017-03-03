@@ -1,11 +1,12 @@
 {
   "name": "wichis",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "description": "Returns which is deeply truthy.",
   "main": "wichis.deploy.js",
   "support": "wichis.support.js",
   "authors": [
-    "Richeve S. Bebedor <richeve.bebedor@gmail.com>"
+    "Richeve S. Bebedor <richeve.bebedor@gmail.com>",
+    "John Lenon Maghanoy <johnlenonmaghanoy@gmail.com>"
   ],
   "license": "MIT",
   "keywords": [
@@ -23,11 +24,8 @@
     "test",
     "tests"
   ],
-  "resolutions": {
-    "doubt": "^0.18.0"
-  },
   "dependencies": {
-    "raze": "^0.19.0",
-    "truu": "^0.14.0"
+    "raze": "^0.20.0",
+    "truu": "^0.15.0"
   }
 }
