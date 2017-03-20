@@ -1,6 +1,6 @@
 {
   "name": "wichis",
-  "version": "0.9.0",
+  "version": "0.10.0",
   "description": "Returns which is deeply truthy.",
   "main": "wichis.deploy.js",
   "support": "wichis.support.js",
@@ -26,6 +26,6 @@
   ],
   "dependencies": {
     "raze": "^0.24.0",
-    "truu": "^0.21.0"
+    "truu": "^0.22.0"
   }
 }
