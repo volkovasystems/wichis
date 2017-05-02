@@ -1,6 +1,7 @@
-
+const assert = require( "assert" );
 const wichis = require( "./wichis.js" );
 
-console.log( wichis( { }, [ ], { "hello": "world" } ) );
+assert.ok( wichis( { }, [ ], { "hello": "world" } ) );
+assert.ok( wichis( { }, [ ] ) );
 
-console.log( wichis( { }, [ ] ) );
+console.log( "ok" );
