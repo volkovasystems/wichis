@@ -1,6 +1,6 @@
 {
   "name": "wichis",
-  "version": "0.12.0",
+  "version": "0.13.0",
   "description": "Returns which is deeply truthy.",
   "main": "wichis.js",
   "support": "wichis.support.js",
@@ -32,8 +32,8 @@
   "homepage": "https://github.com/volkovasystems/wichis#readme",
   "dependencies": {
     "babel-runtime": "^6.23.0",
-    "raze": "^0.27.0",
-    "truu": "^0.24.0"
+    "raze": "^0.29.0",
+    "truu": "^0.25.0"
   },
   "devDependencies": {
     "babel-cli": "^6.24.1",
