@@ -1,32 +1,28 @@
 {
-  "name": "wichis",
-  "version": "0.16.0",
-  "description": "Returns which is deeply truthy.",
-  "main": "wichis.deploy.js",
-  "support": "wichis.support.js",
-  "authors": [
-    "Richeve S. Bebedor <richeve.bebedor@gmail.com>",
-    "John Lenon Maghanoy <johnlenonmaghanoy@gmail.com>",
-    "Vinse Vinalon <vinsevinalon@gmail.com>"
-  ],
-  "license": "MIT",
-  "keywords": [
-    "which",
-    "is",
-    "deep",
-    "truthy",
-    "whichis"
-  ],
-  "homepage": "https://github.com/volkovasystems/wichis",
-  "ignore": [
-    "**/.*",
-    "node_modules",
-    "bower_components",
-    "test",
-    "tests"
-  ],
-  "dependencies": {
-    "raze": "^0.33.0",
-    "truu": "^0.29.0"
-  }
+	"name": "wichis",
+	"version": "0.16.0",
+	"description": "Returns which is deeply truthy.",
+	"main": "wichis.deploy.js",
+	"support": "wichis.support.js",
+	"authors": [
+		"Richeve S. Bebedor <richeve.bebedor@gmail.com>",
+		"John Lenon Maghanoy <johnlenonmaghanoy@gmail.com>",
+		"Vinse Vinalon <vinsevinalon@gmail.com>"
+	],
+	"license": "MIT",
+	"keywords": [
+		"which",
+		"is",
+		"deep",
+		"truthy",
+		"whichis"
+	],
+	"homepage": "https://github.com/volkovasystems/wichis",
+	"ignore": [
+		"**/.*",
+		"node_modules",
+		"bower_components",
+		"test",
+		"tests"
+	]
 }
