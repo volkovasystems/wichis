@@ -18,47 +18,37 @@
 		<script type="application/javascript">
 			QUnit.test( "wichis unit test", function( assert ) {
 
-				assert.equal( wichis( false, true ), true, "should return true" );
+				assert.equal( wichis( false, true ), true, "should be equal to true" );
 
-				assert.equal( wichis( 1, "hello", true ), 1, "should return 1" );
+				assert.equal( wichis( 1, "hello", true ), 1, "should be equal to 1" );
 
-				assert.equal( wichis( "", "yeah", { } ), "yeah", "should return value 'yeah'" );
+				assert.equal( wichis( "", "yeah", { } ), "yeah", "should be equal to value 'yeah'" );
 
 				let test = function hello( ){ };
-				assert.deepEqual( wichis( false, Symbol.for( "id" ), test ), test, "should return function hello( ){ }" );
+				assert.deepEqual( wichis( false, Symbol.for( "id" ), test ), test, "should be equal to function hello( ){ }" );
 
-				assert.deepEqual( wichis( Symbol.for( "cloaked" ), { }, true ), Symbol.for( "cloaked" ), "should return Symbol.for( 'cloaked' )" );
+				assert.deepEqual( wichis( Symbol.for( "cloaked" ), { }, true ), Symbol.for( "cloaked" ), "should be equal to Symbol.for( 'cloaked' )" );
 
-				assert.equal( wichis( "", Infinity, true ), Infinity, "should return Infinity" );
+				assert.equal( wichis( "", Infinity, true ), Infinity, "should be equal to Infinity" );
 
-				assert.deepEqual( wichis( "", false, arguments ), arguments, "should return arguments" );
+				assert.deepEqual( wichis( "", false, arguments ), arguments, "should be equal to arguments" );
 
 				let test4 = function hello( ){ return "hello" };
 				assert.deepEqual( wichis( test4,
 									function procedure( ){ throw new Error( "no operation" ) } ),
-									test4, "should return function hello( ){ return 'hello' }" );
+									test4, "should be equal to function hello( ){ return 'hello' }" );
 
-				assert.deepEqual( wichis( false, [ ], [ 1, 2, 3 ] ), [ 1, 2, 3 ], "should return [ 1, 2, 3 ]" );
+				assert.deepEqual( wichis( false, [ ], [ 1, 2, 3 ] ), [ 1, 2, 3 ], "should be equal to [ 1, 2, 3 ]" );
 
-				assert.deepEqual( wichis( { }, [ ] ), [ ], "should return [ ]" );
+				assert.deepEqual( wichis( { }, [ ] ), [ ], "should be equal to [ ]" );
 
-				assert.deepEqual( wichis( { }, [ "hello" ], { "hello": "world" } ), [ "hello" ], "should return [ 'hello' ]" );
+				assert.deepEqual( wichis( { }, [ "hello" ], { "hello": "world" } ), [ "hello" ], "should be equal to [ 'hello' ]" );
 
-				assert.deepEqual( wichis( 0, { }, [ ] ), [ ], "should return [ ]" );
+				assert.deepEqual( wichis( 0, { }, [ ] ), [ ], "should be equal to [ ]" );
 
-				assert.equal( wichis( 0, { }, true ), true, "should return boolean true" );
+				assert.equal( wichis( 0, { }, true ), true, "should be equal to boolean true" );
 
-				assert.equal( wichis( null, undefined, NaN.toString( ), true ), NaN.toString( ), "should return value of NaN.toString( )" );
-
-				class ClassA{
-					constructor( ){ }
-					method( ){ return "hello"; }
-				}
-
-				let testA = new ClassA( );
-				assert.deepEqual( wichis( { }, testA ), testA, "should return value of testA variable" );
-
-				assert.deepEqual( wichis( testA, { } ), { }, "should return { }" );
+				assert.equal( wichis( null, undefined, NaN.toString( ), true ), "NaN", "should be equal to value of 'NaN'" );
 
 			} );
 		</script>
