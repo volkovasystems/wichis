@@ -1,14 +1,17 @@
 {
   "name": "wichis",
-  "version": "0.16.0",
+  "version": "0.17.0",
   "description": "Returns which is deeply truthy.",
   "main": "wichis.js",
   "support": "wichis.support.js",
   "deploy": "wichis.deploy.js",
   "browser": "wichis.deploy.js",
   "scripts": {
-    "build": "babel wichis.js --out-file wichis.support.js --source-maps && webpack --progress --display-modules",
-    "test": "mocha wichis-test.js"
+	  "pristine": "rsetmod clean && flxc execute ./.install.sh",
+	  "clear": "rsetmod clean --clear",
+	  "formal": "jesy apply '*.json'",
+	  "test": "node test.module.js",
+	  "posttest": "npm run formal"
   },
   "repository": {
     "type": "git",
