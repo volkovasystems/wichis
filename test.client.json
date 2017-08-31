@@ -1,0 +1,532 @@
+{
+	"state": {
+		"passed": 15,
+		"failed": 0,
+		"skipped": 0
+	},
+	"start": "2017-08-31T06:51:48.169Z",
+	"end": "2017-08-31T06:52:33.126Z",
+	"capabilities": {
+		"browserName": "chrome",
+		"chromeOptions": {
+			"args": [
+				"disable-gpu",
+				"headless"
+			]
+		},
+		"proxy": null
+	},
+	"host": "127.0.0.1",
+	"port": 4444,
+	"baseUrl": "http://localhost",
+	"framework": "mocha",
+	"mochaOpts": {
+		"timeout": 10000,
+		"ui": "bdd"
+	},
+	"suites": [
+		{
+			"name": "wichis",
+			"duration": 0,
+			"start": "2017-08-31T06:52:32.217Z",
+			"tests": [],
+			"hooks": []
+		},
+		{
+			"name": "wichis",
+			"duration": 731,
+			"start": "2017-08-31T06:52:32.217Z",
+			"end": "2017-08-31T06:52:32.948Z",
+			"tests": [],
+			"hooks": [
+				{
+					"start": "2017-08-31T06:52:32.218Z",
+					"end": "2017-08-31T06:52:32.219Z",
+					"duration": 1,
+					"title": "\"before each\" hook",
+					"associatedSuite": "wichis",
+					"associatedTest": "should return true"
+				},
+				{
+					"start": "2017-08-31T06:52:32.318Z",
+					"end": "2017-08-31T06:52:32.318Z",
+					"duration": 0,
+					"title": "\"after each\" hook",
+					"associatedSuite": "wichis",
+					"associatedTest": "should return true"
+				},
+				{
+					"start": "2017-08-31T06:52:32.320Z",
+					"end": "2017-08-31T06:52:32.320Z",
+					"duration": 0,
+					"title": "\"before each\" hook",
+					"associatedSuite": "wichis",
+					"associatedTest": "should return 1"
+				},
+				{
+					"start": "2017-08-31T06:52:32.370Z",
+					"end": "2017-08-31T06:52:32.370Z",
+					"duration": 0,
+					"title": "\"after each\" hook",
+					"associatedSuite": "wichis",
+					"associatedTest": "should return 1"
+				},
+				{
+					"start": "2017-08-31T06:52:32.370Z",
+					"end": "2017-08-31T06:52:32.371Z",
+					"duration": 1,
+					"title": "\"before each\" hook",
+					"associatedSuite": "wichis",
+					"associatedTest": "should return value 'yeah'"
+				},
+				{
+					"start": "2017-08-31T06:52:32.415Z",
+					"end": "2017-08-31T06:52:32.415Z",
+					"duration": 0,
+					"title": "\"after each\" hook",
+					"associatedSuite": "wichis",
+					"associatedTest": "should return value 'yeah'"
+				},
+				{
+					"start": "2017-08-31T06:52:32.416Z",
+					"end": "2017-08-31T06:52:32.417Z",
+					"duration": 1,
+					"title": "\"before each\" hook",
+					"associatedSuite": "wichis",
+					"associatedTest": "should return function hello( ){ }"
+				},
+				{
+					"start": "2017-08-31T06:52:32.464Z",
+					"end": "2017-08-31T06:52:32.464Z",
+					"duration": 0,
+					"title": "\"after each\" hook",
+					"associatedSuite": "wichis",
+					"associatedTest": "should return function hello( ){ }"
+				},
+				{
+					"start": "2017-08-31T06:52:32.465Z",
+					"end": "2017-08-31T06:52:32.465Z",
+					"duration": 0,
+					"title": "\"before each\" hook",
+					"associatedSuite": "wichis",
+					"associatedTest": "should return Symbol.for( 'cloaked' )"
+				},
+				{
+					"start": "2017-08-31T06:52:32.508Z",
+					"end": "2017-08-31T06:52:32.508Z",
+					"duration": 0,
+					"title": "\"after each\" hook",
+					"associatedSuite": "wichis",
+					"associatedTest": "should return Symbol.for( 'cloaked' )"
+				},
+				{
+					"start": "2017-08-31T06:52:32.508Z",
+					"end": "2017-08-31T06:52:32.509Z",
+					"duration": 1,
+					"title": "\"before each\" hook",
+					"associatedSuite": "wichis",
+					"associatedTest": "should return Infinity"
+				},
+				{
+					"start": "2017-08-31T06:52:32.557Z",
+					"end": "2017-08-31T06:52:32.557Z",
+					"duration": 0,
+					"title": "\"after each\" hook",
+					"associatedSuite": "wichis",
+					"associatedTest": "should return Infinity"
+				},
+				{
+					"start": "2017-08-31T06:52:32.560Z",
+					"end": "2017-08-31T06:52:32.560Z",
+					"duration": 0,
+					"title": "\"before each\" hook",
+					"associatedSuite": "wichis",
+					"associatedTest": "should return function hello( ){ return 'hello' }"
+				},
+				{
+					"start": "2017-08-31T06:52:32.600Z",
+					"end": "2017-08-31T06:52:32.601Z",
+					"duration": 1,
+					"title": "\"after each\" hook",
+					"associatedSuite": "wichis",
+					"associatedTest": "should return function hello( ){ return 'hello' }"
+				},
+				{
+					"start": "2017-08-31T06:52:32.601Z",
+					"end": "2017-08-31T06:52:32.602Z",
+					"duration": 1,
+					"title": "\"before each\" hook",
+					"associatedSuite": "wichis",
+					"associatedTest": "should return [ 1, 2, 3 ]"
+				},
+				{
+					"start": "2017-08-31T06:52:32.644Z",
+					"end": "2017-08-31T06:52:32.644Z",
+					"duration": 0,
+					"title": "\"after each\" hook",
+					"associatedSuite": "wichis",
+					"associatedTest": "should return [ 1, 2, 3 ]"
+				},
+				{
+					"start": "2017-08-31T06:52:32.646Z",
+					"end": "2017-08-31T06:52:32.646Z",
+					"duration": 0,
+					"title": "\"before each\" hook",
+					"associatedSuite": "wichis",
+					"associatedTest": "should return [ ]"
+				},
+				{
+					"start": "2017-08-31T06:52:32.689Z",
+					"end": "2017-08-31T06:52:32.689Z",
+					"duration": 0,
+					"title": "\"after each\" hook",
+					"associatedSuite": "wichis",
+					"associatedTest": "should return [ ]"
+				},
+				{
+					"start": "2017-08-31T06:52:32.689Z",
+					"end": "2017-08-31T06:52:32.689Z",
+					"duration": 0,
+					"title": "\"before each\" hook",
+					"associatedSuite": "wichis",
+					"associatedTest": "should return [ 'hello' ]"
+				},
+				{
+					"start": "2017-08-31T06:52:32.732Z",
+					"end": "2017-08-31T06:52:32.732Z",
+					"duration": 0,
+					"title": "\"after each\" hook",
+					"associatedSuite": "wichis",
+					"associatedTest": "should return [ 'hello' ]"
+				},
+				{
+					"start": "2017-08-31T06:52:32.732Z",
+					"end": "2017-08-31T06:52:32.732Z",
+					"duration": 0,
+					"title": "\"before each\" hook",
+					"associatedSuite": "wichis",
+					"associatedTest": "should return [ ]"
+				},
+				{
+					"start": "2017-08-31T06:52:32.777Z",
+					"end": "2017-08-31T06:52:32.777Z",
+					"duration": 0,
+					"title": "\"after each\" hook",
+					"associatedSuite": "wichis",
+					"associatedTest": "should return [ ]"
+				},
+				{
+					"start": "2017-08-31T06:52:32.777Z",
+					"end": "2017-08-31T06:52:32.777Z",
+					"duration": 0,
+					"title": "\"before each\" hook",
+					"associatedSuite": "wichis",
+					"associatedTest": "should return true"
+				},
+				{
+					"start": "2017-08-31T06:52:32.817Z",
+					"end": "2017-08-31T06:52:32.817Z",
+					"duration": 0,
+					"title": "\"after each\" hook",
+					"associatedSuite": "wichis",
+					"associatedTest": "should return true"
+				},
+				{
+					"start": "2017-08-31T06:52:32.818Z",
+					"end": "2017-08-31T06:52:32.818Z",
+					"duration": 0,
+					"title": "\"before each\" hook",
+					"associatedSuite": "wichis",
+					"associatedTest": "should return 'NaN'"
+				},
+				{
+					"start": "2017-08-31T06:52:32.861Z",
+					"end": "2017-08-31T06:52:32.861Z",
+					"duration": 0,
+					"title": "\"after each\" hook",
+					"associatedSuite": "wichis",
+					"associatedTest": "should return 'NaN'"
+				},
+				{
+					"start": "2017-08-31T06:52:32.863Z",
+					"end": "2017-08-31T06:52:32.863Z",
+					"duration": 0,
+					"title": "\"before each\" hook",
+					"associatedSuite": "wichis",
+					"associatedTest": "should return instance of class named 'ClassA'"
+				},
+				{
+					"start": "2017-08-31T06:52:32.910Z",
+					"end": "2017-08-31T06:52:32.910Z",
+					"duration": 0,
+					"title": "\"after each\" hook",
+					"associatedSuite": "wichis",
+					"associatedTest": "should return instance of class named 'ClassA'"
+				},
+				{
+					"start": "2017-08-31T06:52:32.910Z",
+					"end": "2017-08-31T06:52:32.910Z",
+					"duration": 0,
+					"title": "\"before each\" hook",
+					"associatedSuite": "wichis",
+					"associatedTest": "should return { }"
+				},
+				{
+					"start": "2017-08-31T06:52:32.948Z",
+					"end": "2017-08-31T06:52:32.948Z",
+					"duration": 0,
+					"title": "\"after each\" hook",
+					"associatedSuite": "wichis",
+					"associatedTest": "should return { }"
+				},
+				{
+					"start": "2017-08-31T06:52:32.949Z",
+					"end": "2017-08-31T06:52:32.949Z",
+					"duration": 0,
+					"title": "\"after all\" hook",
+					"associatedSuite": "wichis"
+				}
+			]
+		},
+		{
+			"name": "`wichis( false, true )`",
+			"duration": 101,
+			"start": "2017-08-31T06:52:32.218Z",
+			"end": "2017-08-31T06:52:32.319Z",
+			"tests": [
+				{
+					"name": "should return true",
+					"start": "2017-08-31T06:52:32.218Z",
+					"end": "2017-08-31T06:52:32.317Z",
+					"duration": 99,
+					"state": "pass"
+				}
+			],
+			"hooks": []
+		},
+		{
+			"name": "`wichis( 1, 'hello', true )`",
+			"duration": 51,
+			"start": "2017-08-31T06:52:32.319Z",
+			"end": "2017-08-31T06:52:32.370Z",
+			"tests": [
+				{
+					"name": "should return 1",
+					"start": "2017-08-31T06:52:32.320Z",
+					"end": "2017-08-31T06:52:32.370Z",
+					"duration": 50,
+					"state": "pass"
+				}
+			],
+			"hooks": []
+		},
+		{
+			"name": "`wichis( '', 'yeah', { } )`",
+			"duration": 45,
+			"start": "2017-08-31T06:52:32.370Z",
+			"end": "2017-08-31T06:52:32.415Z",
+			"tests": [
+				{
+					"name": "should return value 'yeah'",
+					"start": "2017-08-31T06:52:32.370Z",
+					"end": "2017-08-31T06:52:32.415Z",
+					"duration": 45,
+					"state": "pass"
+				}
+			],
+			"hooks": []
+		},
+		{
+			"name": "`wichis( false, Symbol.for( 'id' ), function hello( ){ } )`",
+			"duration": 50,
+			"start": "2017-08-31T06:52:32.415Z",
+			"end": "2017-08-31T06:52:32.465Z",
+			"tests": [
+				{
+					"name": "should return function hello( ){ }",
+					"start": "2017-08-31T06:52:32.415Z",
+					"end": "2017-08-31T06:52:32.464Z",
+					"duration": 49,
+					"state": "pass"
+				}
+			],
+			"hooks": []
+		},
+		{
+			"name": "`wichis( Symbol.for( 'cloaked' ), { }, true )`",
+			"duration": 43,
+			"start": "2017-08-31T06:52:32.465Z",
+			"end": "2017-08-31T06:52:32.508Z",
+			"tests": [
+				{
+					"name": "should return Symbol.for( 'cloaked' )",
+					"start": "2017-08-31T06:52:32.465Z",
+					"end": "2017-08-31T06:52:32.508Z",
+					"duration": 43,
+					"state": "pass"
+				}
+			],
+			"hooks": []
+		},
+		{
+			"name": "`wichis( '', Infinity, true )`",
+			"duration": 49,
+			"start": "2017-08-31T06:52:32.508Z",
+			"end": "2017-08-31T06:52:32.557Z",
+			"tests": [
+				{
+					"name": "should return Infinity",
+					"start": "2017-08-31T06:52:32.508Z",
+					"end": "2017-08-31T06:52:32.557Z",
+					"duration": 49,
+					"state": "pass"
+				}
+			],
+			"hooks": []
+		},
+		{
+			"name": "`wichis( function hello( ){ return 'hello' },function procedure( ){ throw new Error( 'no operation' ) } )`",
+			"duration": 43,
+			"start": "2017-08-31T06:52:32.558Z",
+			"end": "2017-08-31T06:52:32.601Z",
+			"tests": [
+				{
+					"name": "should return function hello( ){ return 'hello' }",
+					"start": "2017-08-31T06:52:32.558Z",
+					"end": "2017-08-31T06:52:32.600Z",
+					"duration": 42,
+					"state": "pass"
+				}
+			],
+			"hooks": []
+		},
+		{
+			"name": "`wichis( false, [ ], [ 1, 2, 3 ] )`",
+			"duration": 43,
+			"start": "2017-08-31T06:52:32.601Z",
+			"end": "2017-08-31T06:52:32.644Z",
+			"tests": [
+				{
+					"name": "should return [ 1, 2, 3 ]",
+					"start": "2017-08-31T06:52:32.601Z",
+					"end": "2017-08-31T06:52:32.644Z",
+					"duration": 43,
+					"state": "pass"
+				}
+			],
+			"hooks": []
+		},
+		{
+			"name": "`wichis( { }, [ ] )`",
+			"duration": 44,
+			"start": "2017-08-31T06:52:32.645Z",
+			"end": "2017-08-31T06:52:32.689Z",
+			"tests": [
+				{
+					"name": "should return [ ]",
+					"start": "2017-08-31T06:52:32.645Z",
+					"end": "2017-08-31T06:52:32.689Z",
+					"duration": 44,
+					"state": "pass"
+				}
+			],
+			"hooks": []
+		},
+		{
+			"name": "`wichis( { }, [ 'hello' ], { 'hello': 'world' } )`",
+			"duration": 43,
+			"start": "2017-08-31T06:52:32.689Z",
+			"end": "2017-08-31T06:52:32.732Z",
+			"tests": [
+				{
+					"name": "should return [ 'hello' ]",
+					"start": "2017-08-31T06:52:32.689Z",
+					"end": "2017-08-31T06:52:32.732Z",
+					"duration": 43,
+					"state": "pass"
+				}
+			],
+			"hooks": []
+		},
+		{
+			"name": "`wichis( 0, { }, [ ] )`",
+			"duration": 45,
+			"start": "2017-08-31T06:52:32.732Z",
+			"end": "2017-08-31T06:52:32.777Z",
+			"tests": [
+				{
+					"name": "should return [ ]",
+					"start": "2017-08-31T06:52:32.732Z",
+					"end": "2017-08-31T06:52:32.777Z",
+					"duration": 45,
+					"state": "pass"
+				}
+			],
+			"hooks": []
+		},
+		{
+			"name": "`wichis( 0, { }, true )`",
+			"duration": 41,
+			"start": "2017-08-31T06:52:32.777Z",
+			"end": "2017-08-31T06:52:32.818Z",
+			"tests": [
+				{
+					"name": "should return true",
+					"start": "2017-08-31T06:52:32.777Z",
+					"end": "2017-08-31T06:52:32.817Z",
+					"duration": 40,
+					"state": "pass"
+				}
+			],
+			"hooks": []
+		},
+		{
+			"name": "`wichis( null, undefined, NaN.toString( ), true )`",
+			"duration": 45,
+			"start": "2017-08-31T06:52:32.818Z",
+			"end": "2017-08-31T06:52:32.863Z",
+			"tests": [
+				{
+					"name": "should return 'NaN'",
+					"start": "2017-08-31T06:52:32.818Z",
+					"end": "2017-08-31T06:52:32.860Z",
+					"duration": 42,
+					"state": "pass"
+				}
+			],
+			"hooks": []
+		},
+		{
+			"name": "`wichis with empty object and instance of class named 'ClassA'`",
+			"duration": 47,
+			"start": "2017-08-31T06:52:32.863Z",
+			"end": "2017-08-31T06:52:32.910Z",
+			"tests": [
+				{
+					"name": "should return instance of class named 'ClassA'",
+					"start": "2017-08-31T06:52:32.863Z",
+					"end": "2017-08-31T06:52:32.910Z",
+					"duration": 47,
+					"state": "pass"
+				}
+			],
+			"hooks": []
+		},
+		{
+			"name": "`wichis with instance of class named 'ClassA' and empty object`",
+			"duration": 38,
+			"start": "2017-08-31T06:52:32.910Z",
+			"end": "2017-08-31T06:52:32.948Z",
+			"tests": [
+				{
+					"name": "should return { }",
+					"start": "2017-08-31T06:52:32.910Z",
+					"end": "2017-08-31T06:52:32.947Z",
+					"duration": 37,
+					"state": "pass"
+				}
+			],
+			"hooks": []
+		}
+	]
+}

@@ -68,9 +68,131 @@ const wichis = require( "./wichis.js" );
 //: @server:
 
 describe( "wichis", ( ) => {
-	
-} );
 
+	describe( "`wichis( false, true )`", ( ) => {
+		it( "should return true", ( ) => {
+			assert.equal( wichis( false, true ), true );
+		} );
+	} );
+
+	describe( "`wichis( 1, 'hello', true )`", ( ) => {
+		it( "should return 1", ( ) => {
+			assert.equal( wichis( 1, "hello", true ), 1 );
+		} );
+	} );
+
+	describe( "`wichis( '', 'yeah', { } )`", ( ) => {
+		it( "should return value 'yeah'", ( ) => {
+			assert.equal( wichis( "", "yeah", { } ), "yeah" );
+		} );
+	} );
+
+	describe( "`wichis( false, Symbol.for( 'id' ), function hello( ){ } )`", ( ) => {
+		it( "should return function hello( ){ }", ( ) => {
+
+			let test = function hello( ){ };
+			assert.deepEqual( wichis( false, Symbol.for( "id" ), test ), test );
+
+		} );
+	} );
+
+	describe( "`wichis( Symbol.for( 'cloaked' ), { }, true )`", ( ) => {
+		it( "should return Symbol.for( 'cloaked' )", ( ) => {
+			assert.deepEqual( wichis( Symbol.for( "cloaked" ), { }, true ), Symbol.for( "cloaked" ) );
+		} );
+	} );
+
+	describe( "`wichis( '', Infinity, true )`", ( ) => {
+		it( "should return Infinity", ( ) => {
+			assert.equal( wichis( "", Infinity, true ), Infinity );
+		} );
+	} );
+
+	describe( "`wichis( function hello( ){ return 'hello' },function procedure( ){ throw new Error( 'no operation' ) } )`", ( ) => {
+		it( "should return function hello( ){ return 'hello' }", ( ) => {
+
+			let test4 = function hello( ){ return "hello" };
+
+			assert.deepEqual( wichis( test4, function procedure( ){ throw new Error( "no operation" ) } ), test4 );
+
+		} );
+	} );
+
+	describe( "`wichis( false, [ ], [ 1, 2, 3 ] )`", ( ) => {
+		it( "should return [ 1, 2, 3 ]", ( ) => {
+
+			assert.deepEqual( wichis( false, [ ], [ 1, 2, 3 ] ), [ 1, 2, 3 ] );
+
+		} );
+	} );
+
+	describe( "`wichis( { }, [ ] )`", ( ) => {
+		it( "should return [ ]", ( ) => {
+
+			assert.deepEqual( wichis( { }, [ ] ), [ ] );
+
+		} );
+	} );
+
+	describe( "`wichis( { }, [ 'hello' ], { 'hello': 'world' } )`", ( ) => {
+		it( "should return [ 'hello' ]", ( ) => {
+
+			assert.deepEqual( wichis( { }, [ "hello" ], { "hello": "world" } ), [ "hello" ] );
+
+		} );
+	} );
+
+	describe( "`wichis( 0, { }, [ ] )`", ( ) => {
+		it( "should return [ ]", ( ) => {
+
+			assert.deepEqual( wichis( 0, { }, [ ] ), [ ] );
+
+		} );
+	} );
+
+	describe( "`wichis( 0, { }, true )`", ( ) => {
+		it( "should return true", ( ) => {
+			assert.equal( wichis( 0, { }, true ), true );
+		} );
+	} );
+
+	describe( "`wichis( null, undefined, NaN.toString( ), true )`", ( ) => {
+		it( "should return 'NaN'", ( ) => {
+			assert.equal( wichis( null, undefined, NaN.toString( ), true ), NaN.toString( ) );
+		} );
+	} );
+
+	describe( "`wichis with empty object and instance of class named 'ClassA'`", ( ) => {
+		it( "should return instance of class named 'ClassA'", ( ) => {
+
+			class ClassA{
+				constructor( ){ }
+				method( ){ return "hello"; }
+			}
+
+			let testA = new ClassA( );
+
+			assert.deepEqual( wichis( { }, testA ), testA );
+
+		} );
+	} );
+
+	describe( "`wichis with instance of class named 'ClassA' and empty object`", ( ) => {
+		it( "should return { }", ( ) => {
+
+			class ClassA{
+				constructor( ){ }
+				method( ){ return "hello"; }
+			}
+
+			let testA = new ClassA( );
+
+			assert.deepEqual( wichis( { }, testA ), testA );
+
+		} );
+	} );
+
+} );
 
 //: @end-server
 
@@ -79,58 +201,3 @@ describe( "wichis", ( ) => {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-// assert.equal( wichis( false, true ), true, "should return true" );
-
-// assert.equal( wichis( 1, "hello", true ), 1, "should return 1" );
-
-// assert.equal( wichis( "", "yeah", { } ), "yeah", "should return value 'yeah'" );
-
-// let test = function hello( ){ };
-// assert.deepEqual( wichis( false, Symbol.for( "id" ), test ), test, "should return function hello( ){ }" );
-
-// assert.deepEqual( wichis( Symbol.for( "cloaked" ), { }, true ), Symbol.for( "cloaked" ), "should return Symbol.for( 'cloaked' )" );
-
-// assert.equal( wichis( "", Infinity, true ), Infinity, "should return Infinity" );
-
-// assert.deepEqual( wichis( "", false, arguments ), arguments, "should return arguments" );
-
-// let test4 = function hello( ){ return "hello" };
-// assert.deepEqual( wichis( test4,
-// 					function procedure( ){ throw new Error( "no operation" ) } ),
-// 					test4, "should return function hello( ){ return 'hello' }" );
-
-// assert.deepEqual( wichis( false, [ ], [ 1, 2, 3 ] ), [ 1, 2, 3 ], "should return [ 1, 2, 3 ]" );
-
-// assert.deepEqual( wichis( { }, [ ] ), [ ], "should return [ ]" );
-
-// assert.deepEqual( wichis( { }, [ "hello" ], { "hello": "world" } ), [ "hello" ], "should return [ 'hello' ]" );
-
-// assert.deepEqual( wichis( 0, { }, [ ] ), [ ], "should return [ ]" );
-
-// assert.equal( wichis( 0, { }, true ), true, "should return boolean true" );
-
-// assert.equal( wichis( null, undefined, NaN.toString( ), true ), NaN.toString( ), "should return value of NaN.toString( )" );
-
-// class ClassA{
-// 	constructor( ){ }
-// 	method( ){ return "hello"; }
-// }
-
-// let testA = new ClassA( );
-// assert.deepEqual( wichis( { }, testA ), testA, "should return value of testA variable" );
-
-// assert.deepEqual( wichis( testA, { } ), { }, "should return { }" );
-
-// console.log( "ok" );

@@ -24,5 +24,9 @@
 		"bower_components",
 		"test",
 		"tests"
-	]
+	],
+	"dependencies": {
+		"raze": "^0.34.0",
+		"truu": "^0.30.0"
+	}
 }

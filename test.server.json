@@ -1,16 +1,228 @@
 {
-  "stats": {
-    "suites": 0,
-    "tests": 0,
-    "passes": 0,
-    "pending": 0,
-    "failures": 0,
-    "start": "2017-08-21T05:09:52.261Z",
-    "end": "2017-08-21T05:09:52.261Z",
-    "duration": 0
-  },
-  "tests": [],
-  "pending": [],
-  "failures": [],
-  "passes": []
+	"stats": {
+		"suites": 16,
+		"tests": 15,
+		"passes": 15,
+		"pending": 0,
+		"failures": 0,
+		"start": "2017-08-31T06:51:46.823Z",
+		"end": "2017-08-31T06:51:46.834Z",
+		"duration": 11
+	},
+	"tests": [
+		{
+			"title": "should return true",
+			"fullTitle": "wichis `wichis( false, true )` should return true",
+			"duration": 1,
+			"currentRetry": 0,
+			"err": {}
+		},
+		{
+			"title": "should return 1",
+			"fullTitle": "wichis `wichis( 1, 'hello', true )` should return 1",
+			"duration": 0,
+			"currentRetry": 0,
+			"err": {}
+		},
+		{
+			"title": "should return value 'yeah'",
+			"fullTitle": "wichis `wichis( '', 'yeah', { } )` should return value 'yeah'",
+			"duration": 0,
+			"currentRetry": 0,
+			"err": {}
+		},
+		{
+			"title": "should return function hello( ){ }",
+			"fullTitle": "wichis `wichis( false, Symbol.for( 'id' ), function hello( ){ } )` should return function hello( ){ }",
+			"duration": 1,
+			"currentRetry": 0,
+			"err": {}
+		},
+		{
+			"title": "should return Symbol.for( 'cloaked' )",
+			"fullTitle": "wichis `wichis( Symbol.for( 'cloaked' ), { }, true )` should return Symbol.for( 'cloaked' )",
+			"duration": 0,
+			"currentRetry": 0,
+			"err": {}
+		},
+		{
+			"title": "should return Infinity",
+			"fullTitle": "wichis `wichis( '', Infinity, true )` should return Infinity",
+			"duration": 0,
+			"currentRetry": 0,
+			"err": {}
+		},
+		{
+			"title": "should return function hello( ){ return 'hello' }",
+			"fullTitle": "wichis `wichis( function hello( ){ return 'hello' },function procedure( ){ throw new Error( 'no operation' ) } )` should return function hello( ){ return 'hello' }",
+			"duration": 0,
+			"currentRetry": 0,
+			"err": {}
+		},
+		{
+			"title": "should return [ 1, 2, 3 ]",
+			"fullTitle": "wichis `wichis( false, [ ], [ 1, 2, 3 ] )` should return [ 1, 2, 3 ]",
+			"duration": 2,
+			"currentRetry": 0,
+			"err": {}
+		},
+		{
+			"title": "should return [ ]",
+			"fullTitle": "wichis `wichis( { }, [ ] )` should return [ ]",
+			"duration": 0,
+			"currentRetry": 0,
+			"err": {}
+		},
+		{
+			"title": "should return [ 'hello' ]",
+			"fullTitle": "wichis `wichis( { }, [ 'hello' ], { 'hello': 'world' } )` should return [ 'hello' ]",
+			"duration": 0,
+			"currentRetry": 0,
+			"err": {}
+		},
+		{
+			"title": "should return [ ]",
+			"fullTitle": "wichis `wichis( 0, { }, [ ] )` should return [ ]",
+			"duration": 0,
+			"currentRetry": 0,
+			"err": {}
+		},
+		{
+			"title": "should return true",
+			"fullTitle": "wichis `wichis( 0, { }, true )` should return true",
+			"duration": 0,
+			"currentRetry": 0,
+			"err": {}
+		},
+		{
+			"title": "should return 'NaN'",
+			"fullTitle": "wichis `wichis( null, undefined, NaN.toString( ), true )` should return 'NaN'",
+			"duration": 0,
+			"currentRetry": 0,
+			"err": {}
+		},
+		{
+			"title": "should return instance of class named 'ClassA'",
+			"fullTitle": "wichis `wichis with empty object and instance of class named 'ClassA'` should return instance of class named 'ClassA'",
+			"duration": 0,
+			"currentRetry": 0,
+			"err": {}
+		},
+		{
+			"title": "should return { }",
+			"fullTitle": "wichis `wichis with instance of class named 'ClassA' and empty object` should return { }",
+			"duration": 1,
+			"currentRetry": 0,
+			"err": {}
+		}
+	],
+	"pending": [],
+	"failures": [],
+	"passes": [
+		{
+			"title": "should return true",
+			"fullTitle": "wichis `wichis( false, true )` should return true",
+			"duration": 1,
+			"currentRetry": 0,
+			"err": {}
+		},
+		{
+			"title": "should return 1",
+			"fullTitle": "wichis `wichis( 1, 'hello', true )` should return 1",
+			"duration": 0,
+			"currentRetry": 0,
+			"err": {}
+		},
+		{
+			"title": "should return value 'yeah'",
+			"fullTitle": "wichis `wichis( '', 'yeah', { } )` should return value 'yeah'",
+			"duration": 0,
+			"currentRetry": 0,
+			"err": {}
+		},
+		{
+			"title": "should return function hello( ){ }",
+			"fullTitle": "wichis `wichis( false, Symbol.for( 'id' ), function hello( ){ } )` should return function hello( ){ }",
+			"duration": 1,
+			"currentRetry": 0,
+			"err": {}
+		},
+		{
+			"title": "should return Symbol.for( 'cloaked' )",
+			"fullTitle": "wichis `wichis( Symbol.for( 'cloaked' ), { }, true )` should return Symbol.for( 'cloaked' )",
+			"duration": 0,
+			"currentRetry": 0,
+			"err": {}
+		},
+		{
+			"title": "should return Infinity",
+			"fullTitle": "wichis `wichis( '', Infinity, true )` should return Infinity",
+			"duration": 0,
+			"currentRetry": 0,
+			"err": {}
+		},
+		{
+			"title": "should return function hello( ){ return 'hello' }",
+			"fullTitle": "wichis `wichis( function hello( ){ return 'hello' },function procedure( ){ throw new Error( 'no operation' ) } )` should return function hello( ){ return 'hello' }",
+			"duration": 0,
+			"currentRetry": 0,
+			"err": {}
+		},
+		{
+			"title": "should return [ 1, 2, 3 ]",
+			"fullTitle": "wichis `wichis( false, [ ], [ 1, 2, 3 ] )` should return [ 1, 2, 3 ]",
+			"duration": 2,
+			"currentRetry": 0,
+			"err": {}
+		},
+		{
+			"title": "should return [ ]",
+			"fullTitle": "wichis `wichis( { }, [ ] )` should return [ ]",
+			"duration": 0,
+			"currentRetry": 0,
+			"err": {}
+		},
+		{
+			"title": "should return [ 'hello' ]",
+			"fullTitle": "wichis `wichis( { }, [ 'hello' ], { 'hello': 'world' } )` should return [ 'hello' ]",
+			"duration": 0,
+			"currentRetry": 0,
+			"err": {}
+		},
+		{
+			"title": "should return [ ]",
+			"fullTitle": "wichis `wichis( 0, { }, [ ] )` should return [ ]",
+			"duration": 0,
+			"currentRetry": 0,
+			"err": {}
+		},
+		{
+			"title": "should return true",
+			"fullTitle": "wichis `wichis( 0, { }, true )` should return true",
+			"duration": 0,
+			"currentRetry": 0,
+			"err": {}
+		},
+		{
+			"title": "should return 'NaN'",
+			"fullTitle": "wichis `wichis( null, undefined, NaN.toString( ), true )` should return 'NaN'",
+			"duration": 0,
+			"currentRetry": 0,
+			"err": {}
+		},
+		{
+			"title": "should return instance of class named 'ClassA'",
+			"fullTitle": "wichis `wichis with empty object and instance of class named 'ClassA'` should return instance of class named 'ClassA'",
+			"duration": 0,
+			"currentRetry": 0,
+			"err": {}
+		},
+		{
+			"title": "should return { }",
+			"fullTitle": "wichis `wichis with instance of class named 'ClassA' and empty object` should return { }",
+			"duration": 1,
+			"currentRetry": 0,
+			"err": {}
+		}
+	]
 }
