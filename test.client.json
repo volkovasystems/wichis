@@ -4,8 +4,8 @@
 		"failed": 0,
 		"skipped": 0
 	},
-	"start": "2017-08-31T06:51:48.169Z",
-	"end": "2017-08-31T06:52:33.126Z",
+	"start": "2017-08-31T06:56:59.001Z",
+	"end": "2017-08-31T06:57:03.920Z",
 	"capabilities": {
 		"browserName": "chrome",
 		"chromeOptions": {
@@ -28,260 +28,260 @@
 		{
 			"name": "wichis",
 			"duration": 0,
-			"start": "2017-08-31T06:52:32.217Z",
+			"start": "2017-08-31T06:57:03.019Z",
 			"tests": [],
 			"hooks": []
 		},
 		{
 			"name": "wichis",
-			"duration": 731,
-			"start": "2017-08-31T06:52:32.217Z",
-			"end": "2017-08-31T06:52:32.948Z",
+			"duration": 723,
+			"start": "2017-08-31T06:57:03.020Z",
+			"end": "2017-08-31T06:57:03.743Z",
 			"tests": [],
 			"hooks": [
 				{
-					"start": "2017-08-31T06:52:32.218Z",
-					"end": "2017-08-31T06:52:32.219Z",
-					"duration": 1,
+					"start": "2017-08-31T06:57:03.022Z",
+					"end": "2017-08-31T06:57:03.022Z",
+					"duration": 0,
 					"title": "\"before each\" hook",
 					"associatedSuite": "wichis",
-					"associatedTest": "should return true"
+					"associatedTest": "should be equal to true"
 				},
 				{
-					"start": "2017-08-31T06:52:32.318Z",
-					"end": "2017-08-31T06:52:32.318Z",
+					"start": "2017-08-31T06:57:03.118Z",
+					"end": "2017-08-31T06:57:03.118Z",
 					"duration": 0,
 					"title": "\"after each\" hook",
 					"associatedSuite": "wichis",
-					"associatedTest": "should return true"
+					"associatedTest": "should be equal to true"
 				},
 				{
-					"start": "2017-08-31T06:52:32.320Z",
-					"end": "2017-08-31T06:52:32.320Z",
+					"start": "2017-08-31T06:57:03.122Z",
+					"end": "2017-08-31T06:57:03.122Z",
 					"duration": 0,
 					"title": "\"before each\" hook",
 					"associatedSuite": "wichis",
-					"associatedTest": "should return 1"
+					"associatedTest": "should be equal to 1"
 				},
 				{
-					"start": "2017-08-31T06:52:32.370Z",
-					"end": "2017-08-31T06:52:32.370Z",
-					"duration": 0,
-					"title": "\"after each\" hook",
-					"associatedSuite": "wichis",
-					"associatedTest": "should return 1"
-				},
-				{
-					"start": "2017-08-31T06:52:32.370Z",
-					"end": "2017-08-31T06:52:32.371Z",
-					"duration": 1,
-					"title": "\"before each\" hook",
-					"associatedSuite": "wichis",
-					"associatedTest": "should return value 'yeah'"
-				},
-				{
-					"start": "2017-08-31T06:52:32.415Z",
-					"end": "2017-08-31T06:52:32.415Z",
-					"duration": 0,
-					"title": "\"after each\" hook",
-					"associatedSuite": "wichis",
-					"associatedTest": "should return value 'yeah'"
-				},
-				{
-					"start": "2017-08-31T06:52:32.416Z",
-					"end": "2017-08-31T06:52:32.417Z",
-					"duration": 1,
-					"title": "\"before each\" hook",
-					"associatedSuite": "wichis",
-					"associatedTest": "should return function hello( ){ }"
-				},
-				{
-					"start": "2017-08-31T06:52:32.464Z",
-					"end": "2017-08-31T06:52:32.464Z",
-					"duration": 0,
-					"title": "\"after each\" hook",
-					"associatedSuite": "wichis",
-					"associatedTest": "should return function hello( ){ }"
-				},
-				{
-					"start": "2017-08-31T06:52:32.465Z",
-					"end": "2017-08-31T06:52:32.465Z",
-					"duration": 0,
-					"title": "\"before each\" hook",
-					"associatedSuite": "wichis",
-					"associatedTest": "should return Symbol.for( 'cloaked' )"
-				},
-				{
-					"start": "2017-08-31T06:52:32.508Z",
-					"end": "2017-08-31T06:52:32.508Z",
-					"duration": 0,
-					"title": "\"after each\" hook",
-					"associatedSuite": "wichis",
-					"associatedTest": "should return Symbol.for( 'cloaked' )"
-				},
-				{
-					"start": "2017-08-31T06:52:32.508Z",
-					"end": "2017-08-31T06:52:32.509Z",
-					"duration": 1,
-					"title": "\"before each\" hook",
-					"associatedSuite": "wichis",
-					"associatedTest": "should return Infinity"
-				},
-				{
-					"start": "2017-08-31T06:52:32.557Z",
-					"end": "2017-08-31T06:52:32.557Z",
-					"duration": 0,
-					"title": "\"after each\" hook",
-					"associatedSuite": "wichis",
-					"associatedTest": "should return Infinity"
-				},
-				{
-					"start": "2017-08-31T06:52:32.560Z",
-					"end": "2017-08-31T06:52:32.560Z",
-					"duration": 0,
-					"title": "\"before each\" hook",
-					"associatedSuite": "wichis",
-					"associatedTest": "should return function hello( ){ return 'hello' }"
-				},
-				{
-					"start": "2017-08-31T06:52:32.600Z",
-					"end": "2017-08-31T06:52:32.601Z",
+					"start": "2017-08-31T06:57:03.172Z",
+					"end": "2017-08-31T06:57:03.173Z",
 					"duration": 1,
 					"title": "\"after each\" hook",
 					"associatedSuite": "wichis",
-					"associatedTest": "should return function hello( ){ return 'hello' }"
+					"associatedTest": "should be equal to 1"
 				},
 				{
-					"start": "2017-08-31T06:52:32.601Z",
-					"end": "2017-08-31T06:52:32.602Z",
+					"start": "2017-08-31T06:57:03.173Z",
+					"end": "2017-08-31T06:57:03.173Z",
+					"duration": 0,
+					"title": "\"before each\" hook",
+					"associatedSuite": "wichis",
+					"associatedTest": "should be equal to value 'yeah'"
+				},
+				{
+					"start": "2017-08-31T06:57:03.220Z",
+					"end": "2017-08-31T06:57:03.220Z",
+					"duration": 0,
+					"title": "\"after each\" hook",
+					"associatedSuite": "wichis",
+					"associatedTest": "should be equal to value 'yeah'"
+				},
+				{
+					"start": "2017-08-31T06:57:03.221Z",
+					"end": "2017-08-31T06:57:03.221Z",
+					"duration": 0,
+					"title": "\"before each\" hook",
+					"associatedSuite": "wichis",
+					"associatedTest": "should be equal to function hello( ){ }"
+				},
+				{
+					"start": "2017-08-31T06:57:03.272Z",
+					"end": "2017-08-31T06:57:03.272Z",
+					"duration": 0,
+					"title": "\"after each\" hook",
+					"associatedSuite": "wichis",
+					"associatedTest": "should be equal to function hello( ){ }"
+				},
+				{
+					"start": "2017-08-31T06:57:03.273Z",
+					"end": "2017-08-31T06:57:03.273Z",
+					"duration": 0,
+					"title": "\"before each\" hook",
+					"associatedSuite": "wichis",
+					"associatedTest": "should be equal to Symbol.for( 'cloaked' )"
+				},
+				{
+					"start": "2017-08-31T06:57:03.315Z",
+					"end": "2017-08-31T06:57:03.316Z",
+					"duration": 1,
+					"title": "\"after each\" hook",
+					"associatedSuite": "wichis",
+					"associatedTest": "should be equal to Symbol.for( 'cloaked' )"
+				},
+				{
+					"start": "2017-08-31T06:57:03.316Z",
+					"end": "2017-08-31T06:57:03.316Z",
+					"duration": 0,
+					"title": "\"before each\" hook",
+					"associatedSuite": "wichis",
+					"associatedTest": "should be equal to Infinity"
+				},
+				{
+					"start": "2017-08-31T06:57:03.361Z",
+					"end": "2017-08-31T06:57:03.361Z",
+					"duration": 0,
+					"title": "\"after each\" hook",
+					"associatedSuite": "wichis",
+					"associatedTest": "should be equal to Infinity"
+				},
+				{
+					"start": "2017-08-31T06:57:03.363Z",
+					"end": "2017-08-31T06:57:03.363Z",
+					"duration": 0,
+					"title": "\"before each\" hook",
+					"associatedSuite": "wichis",
+					"associatedTest": "should be equal to function hello( ){ return 'hello' }"
+				},
+				{
+					"start": "2017-08-31T06:57:03.405Z",
+					"end": "2017-08-31T06:57:03.405Z",
+					"duration": 0,
+					"title": "\"after each\" hook",
+					"associatedSuite": "wichis",
+					"associatedTest": "should be equal to function hello( ){ return 'hello' }"
+				},
+				{
+					"start": "2017-08-31T06:57:03.406Z",
+					"end": "2017-08-31T06:57:03.407Z",
 					"duration": 1,
 					"title": "\"before each\" hook",
 					"associatedSuite": "wichis",
-					"associatedTest": "should return [ 1, 2, 3 ]"
+					"associatedTest": "should be equal to [ 1, 2, 3 ]"
 				},
 				{
-					"start": "2017-08-31T06:52:32.644Z",
-					"end": "2017-08-31T06:52:32.644Z",
+					"start": "2017-08-31T06:57:03.449Z",
+					"end": "2017-08-31T06:57:03.449Z",
 					"duration": 0,
 					"title": "\"after each\" hook",
 					"associatedSuite": "wichis",
-					"associatedTest": "should return [ 1, 2, 3 ]"
+					"associatedTest": "should be equal to [ 1, 2, 3 ]"
 				},
 				{
-					"start": "2017-08-31T06:52:32.646Z",
-					"end": "2017-08-31T06:52:32.646Z",
+					"start": "2017-08-31T06:57:03.451Z",
+					"end": "2017-08-31T06:57:03.451Z",
 					"duration": 0,
 					"title": "\"before each\" hook",
 					"associatedSuite": "wichis",
-					"associatedTest": "should return [ ]"
+					"associatedTest": "should be equal to [ ]"
 				},
 				{
-					"start": "2017-08-31T06:52:32.689Z",
-					"end": "2017-08-31T06:52:32.689Z",
+					"start": "2017-08-31T06:57:03.496Z",
+					"end": "2017-08-31T06:57:03.496Z",
 					"duration": 0,
 					"title": "\"after each\" hook",
 					"associatedSuite": "wichis",
-					"associatedTest": "should return [ ]"
+					"associatedTest": "should be equal to [ ]"
 				},
 				{
-					"start": "2017-08-31T06:52:32.689Z",
-					"end": "2017-08-31T06:52:32.689Z",
+					"start": "2017-08-31T06:57:03.497Z",
+					"end": "2017-08-31T06:57:03.497Z",
 					"duration": 0,
 					"title": "\"before each\" hook",
 					"associatedSuite": "wichis",
-					"associatedTest": "should return [ 'hello' ]"
+					"associatedTest": "should be equal to [ 'hello' ]"
 				},
 				{
-					"start": "2017-08-31T06:52:32.732Z",
-					"end": "2017-08-31T06:52:32.732Z",
+					"start": "2017-08-31T06:57:03.535Z",
+					"end": "2017-08-31T06:57:03.535Z",
 					"duration": 0,
 					"title": "\"after each\" hook",
 					"associatedSuite": "wichis",
-					"associatedTest": "should return [ 'hello' ]"
+					"associatedTest": "should be equal to [ 'hello' ]"
 				},
 				{
-					"start": "2017-08-31T06:52:32.732Z",
-					"end": "2017-08-31T06:52:32.732Z",
+					"start": "2017-08-31T06:57:03.536Z",
+					"end": "2017-08-31T06:57:03.536Z",
 					"duration": 0,
 					"title": "\"before each\" hook",
 					"associatedSuite": "wichis",
-					"associatedTest": "should return [ ]"
+					"associatedTest": "should be equal to [ ]"
 				},
 				{
-					"start": "2017-08-31T06:52:32.777Z",
-					"end": "2017-08-31T06:52:32.777Z",
+					"start": "2017-08-31T06:57:03.580Z",
+					"end": "2017-08-31T06:57:03.580Z",
 					"duration": 0,
 					"title": "\"after each\" hook",
 					"associatedSuite": "wichis",
-					"associatedTest": "should return [ ]"
+					"associatedTest": "should be equal to [ ]"
 				},
 				{
-					"start": "2017-08-31T06:52:32.777Z",
-					"end": "2017-08-31T06:52:32.777Z",
+					"start": "2017-08-31T06:57:03.580Z",
+					"end": "2017-08-31T06:57:03.580Z",
 					"duration": 0,
 					"title": "\"before each\" hook",
 					"associatedSuite": "wichis",
-					"associatedTest": "should return true"
+					"associatedTest": "should be equal to true"
 				},
 				{
-					"start": "2017-08-31T06:52:32.817Z",
-					"end": "2017-08-31T06:52:32.817Z",
+					"start": "2017-08-31T06:57:03.621Z",
+					"end": "2017-08-31T06:57:03.621Z",
 					"duration": 0,
 					"title": "\"after each\" hook",
 					"associatedSuite": "wichis",
-					"associatedTest": "should return true"
+					"associatedTest": "should be equal to true"
 				},
 				{
-					"start": "2017-08-31T06:52:32.818Z",
-					"end": "2017-08-31T06:52:32.818Z",
+					"start": "2017-08-31T06:57:03.621Z",
+					"end": "2017-08-31T06:57:03.622Z",
+					"duration": 1,
+					"title": "\"before each\" hook",
+					"associatedSuite": "wichis",
+					"associatedTest": "should be equal to 'NaN'"
+				},
+				{
+					"start": "2017-08-31T06:57:03.664Z",
+					"end": "2017-08-31T06:57:03.665Z",
+					"duration": 1,
+					"title": "\"after each\" hook",
+					"associatedSuite": "wichis",
+					"associatedTest": "should be equal to 'NaN'"
+				},
+				{
+					"start": "2017-08-31T06:57:03.666Z",
+					"end": "2017-08-31T06:57:03.666Z",
 					"duration": 0,
 					"title": "\"before each\" hook",
 					"associatedSuite": "wichis",
-					"associatedTest": "should return 'NaN'"
+					"associatedTest": "should be equal to instance of class named 'ClassA'"
 				},
 				{
-					"start": "2017-08-31T06:52:32.861Z",
-					"end": "2017-08-31T06:52:32.861Z",
+					"start": "2017-08-31T06:57:03.706Z",
+					"end": "2017-08-31T06:57:03.706Z",
 					"duration": 0,
 					"title": "\"after each\" hook",
 					"associatedSuite": "wichis",
-					"associatedTest": "should return 'NaN'"
+					"associatedTest": "should be equal to instance of class named 'ClassA'"
 				},
 				{
-					"start": "2017-08-31T06:52:32.863Z",
-					"end": "2017-08-31T06:52:32.863Z",
+					"start": "2017-08-31T06:57:03.706Z",
+					"end": "2017-08-31T06:57:03.706Z",
 					"duration": 0,
 					"title": "\"before each\" hook",
 					"associatedSuite": "wichis",
-					"associatedTest": "should return instance of class named 'ClassA'"
+					"associatedTest": "should be equal to { }"
 				},
 				{
-					"start": "2017-08-31T06:52:32.910Z",
-					"end": "2017-08-31T06:52:32.910Z",
-					"duration": 0,
+					"start": "2017-08-31T06:57:03.742Z",
+					"end": "2017-08-31T06:57:03.743Z",
+					"duration": 1,
 					"title": "\"after each\" hook",
 					"associatedSuite": "wichis",
-					"associatedTest": "should return instance of class named 'ClassA'"
+					"associatedTest": "should be equal to { }"
 				},
 				{
-					"start": "2017-08-31T06:52:32.910Z",
-					"end": "2017-08-31T06:52:32.910Z",
-					"duration": 0,
-					"title": "\"before each\" hook",
-					"associatedSuite": "wichis",
-					"associatedTest": "should return { }"
-				},
-				{
-					"start": "2017-08-31T06:52:32.948Z",
-					"end": "2017-08-31T06:52:32.948Z",
-					"duration": 0,
-					"title": "\"after each\" hook",
-					"associatedSuite": "wichis",
-					"associatedTest": "should return { }"
-				},
-				{
-					"start": "2017-08-31T06:52:32.949Z",
-					"end": "2017-08-31T06:52:32.949Z",
+					"start": "2017-08-31T06:57:03.743Z",
+					"end": "2017-08-31T06:57:03.743Z",
 					"duration": 0,
 					"title": "\"after all\" hook",
 					"associatedSuite": "wichis"
@@ -290,15 +290,15 @@
 		},
 		{
 			"name": "`wichis( false, true )`",
-			"duration": 101,
-			"start": "2017-08-31T06:52:32.218Z",
-			"end": "2017-08-31T06:52:32.319Z",
+			"duration": 99,
+			"start": "2017-08-31T06:57:03.021Z",
+			"end": "2017-08-31T06:57:03.120Z",
 			"tests": [
 				{
-					"name": "should return true",
-					"start": "2017-08-31T06:52:32.218Z",
-					"end": "2017-08-31T06:52:32.317Z",
-					"duration": 99,
+					"name": "should be equal to true",
+					"start": "2017-08-31T06:57:03.021Z",
+					"end": "2017-08-31T06:57:03.118Z",
+					"duration": 97,
 					"state": "pass"
 				}
 			],
@@ -306,14 +306,14 @@
 		},
 		{
 			"name": "`wichis( 1, 'hello', true )`",
-			"duration": 51,
-			"start": "2017-08-31T06:52:32.319Z",
-			"end": "2017-08-31T06:52:32.370Z",
+			"duration": 53,
+			"start": "2017-08-31T06:57:03.120Z",
+			"end": "2017-08-31T06:57:03.173Z",
 			"tests": [
 				{
-					"name": "should return 1",
-					"start": "2017-08-31T06:52:32.320Z",
-					"end": "2017-08-31T06:52:32.370Z",
+					"name": "should be equal to 1",
+					"start": "2017-08-31T06:57:03.122Z",
+					"end": "2017-08-31T06:57:03.172Z",
 					"duration": 50,
 					"state": "pass"
 				}
@@ -322,15 +322,15 @@
 		},
 		{
 			"name": "`wichis( '', 'yeah', { } )`",
-			"duration": 45,
-			"start": "2017-08-31T06:52:32.370Z",
-			"end": "2017-08-31T06:52:32.415Z",
+			"duration": 47,
+			"start": "2017-08-31T06:57:03.173Z",
+			"end": "2017-08-31T06:57:03.220Z",
 			"tests": [
 				{
-					"name": "should return value 'yeah'",
-					"start": "2017-08-31T06:52:32.370Z",
-					"end": "2017-08-31T06:52:32.415Z",
-					"duration": 45,
+					"name": "should be equal to value 'yeah'",
+					"start": "2017-08-31T06:57:03.173Z",
+					"end": "2017-08-31T06:57:03.220Z",
+					"duration": 47,
 					"state": "pass"
 				}
 			],
@@ -338,15 +338,15 @@
 		},
 		{
 			"name": "`wichis( false, Symbol.for( 'id' ), function hello( ){ } )`",
-			"duration": 50,
-			"start": "2017-08-31T06:52:32.415Z",
-			"end": "2017-08-31T06:52:32.465Z",
+			"duration": 51,
+			"start": "2017-08-31T06:57:03.221Z",
+			"end": "2017-08-31T06:57:03.272Z",
 			"tests": [
 				{
-					"name": "should return function hello( ){ }",
-					"start": "2017-08-31T06:52:32.415Z",
-					"end": "2017-08-31T06:52:32.464Z",
-					"duration": 49,
+					"name": "should be equal to function hello( ){ }",
+					"start": "2017-08-31T06:57:03.221Z",
+					"end": "2017-08-31T06:57:03.272Z",
+					"duration": 51,
 					"state": "pass"
 				}
 			],
@@ -355,14 +355,14 @@
 		{
 			"name": "`wichis( Symbol.for( 'cloaked' ), { }, true )`",
 			"duration": 43,
-			"start": "2017-08-31T06:52:32.465Z",
-			"end": "2017-08-31T06:52:32.508Z",
+			"start": "2017-08-31T06:57:03.273Z",
+			"end": "2017-08-31T06:57:03.316Z",
 			"tests": [
 				{
-					"name": "should return Symbol.for( 'cloaked' )",
-					"start": "2017-08-31T06:52:32.465Z",
-					"end": "2017-08-31T06:52:32.508Z",
-					"duration": 43,
+					"name": "should be equal to Symbol.for( 'cloaked' )",
+					"start": "2017-08-31T06:57:03.273Z",
+					"end": "2017-08-31T06:57:03.315Z",
+					"duration": 42,
 					"state": "pass"
 				}
 			],
@@ -370,15 +370,15 @@
 		},
 		{
 			"name": "`wichis( '', Infinity, true )`",
-			"duration": 49,
-			"start": "2017-08-31T06:52:32.508Z",
-			"end": "2017-08-31T06:52:32.557Z",
+			"duration": 45,
+			"start": "2017-08-31T06:57:03.316Z",
+			"end": "2017-08-31T06:57:03.361Z",
 			"tests": [
 				{
-					"name": "should return Infinity",
-					"start": "2017-08-31T06:52:32.508Z",
-					"end": "2017-08-31T06:52:32.557Z",
-					"duration": 49,
+					"name": "should be equal to Infinity",
+					"start": "2017-08-31T06:57:03.316Z",
+					"end": "2017-08-31T06:57:03.360Z",
+					"duration": 44,
 					"state": "pass"
 				}
 			],
@@ -386,14 +386,14 @@
 		},
 		{
 			"name": "`wichis( function hello( ){ return 'hello' },function procedure( ){ throw new Error( 'no operation' ) } )`",
-			"duration": 43,
-			"start": "2017-08-31T06:52:32.558Z",
-			"end": "2017-08-31T06:52:32.601Z",
+			"duration": 42,
+			"start": "2017-08-31T06:57:03.363Z",
+			"end": "2017-08-31T06:57:03.405Z",
 			"tests": [
 				{
-					"name": "should return function hello( ){ return 'hello' }",
-					"start": "2017-08-31T06:52:32.558Z",
-					"end": "2017-08-31T06:52:32.600Z",
+					"name": "should be equal to function hello( ){ return 'hello' }",
+					"start": "2017-08-31T06:57:03.363Z",
+					"end": "2017-08-31T06:57:03.405Z",
 					"duration": 42,
 					"state": "pass"
 				}
@@ -403,13 +403,13 @@
 		{
 			"name": "`wichis( false, [ ], [ 1, 2, 3 ] )`",
 			"duration": 43,
-			"start": "2017-08-31T06:52:32.601Z",
-			"end": "2017-08-31T06:52:32.644Z",
+			"start": "2017-08-31T06:57:03.406Z",
+			"end": "2017-08-31T06:57:03.449Z",
 			"tests": [
 				{
-					"name": "should return [ 1, 2, 3 ]",
-					"start": "2017-08-31T06:52:32.601Z",
-					"end": "2017-08-31T06:52:32.644Z",
+					"name": "should be equal to [ 1, 2, 3 ]",
+					"start": "2017-08-31T06:57:03.406Z",
+					"end": "2017-08-31T06:57:03.449Z",
 					"duration": 43,
 					"state": "pass"
 				}
@@ -418,15 +418,15 @@
 		},
 		{
 			"name": "`wichis( { }, [ ] )`",
-			"duration": 44,
-			"start": "2017-08-31T06:52:32.645Z",
-			"end": "2017-08-31T06:52:32.689Z",
+			"duration": 47,
+			"start": "2017-08-31T06:57:03.450Z",
+			"end": "2017-08-31T06:57:03.497Z",
 			"tests": [
 				{
-					"name": "should return [ ]",
-					"start": "2017-08-31T06:52:32.645Z",
-					"end": "2017-08-31T06:52:32.689Z",
-					"duration": 44,
+					"name": "should be equal to [ ]",
+					"start": "2017-08-31T06:57:03.450Z",
+					"end": "2017-08-31T06:57:03.496Z",
+					"duration": 46,
 					"state": "pass"
 				}
 			],
@@ -434,15 +434,15 @@
 		},
 		{
 			"name": "`wichis( { }, [ 'hello' ], { 'hello': 'world' } )`",
-			"duration": 43,
-			"start": "2017-08-31T06:52:32.689Z",
-			"end": "2017-08-31T06:52:32.732Z",
+			"duration": 38,
+			"start": "2017-08-31T06:57:03.497Z",
+			"end": "2017-08-31T06:57:03.535Z",
 			"tests": [
 				{
-					"name": "should return [ 'hello' ]",
-					"start": "2017-08-31T06:52:32.689Z",
-					"end": "2017-08-31T06:52:32.732Z",
-					"duration": 43,
+					"name": "should be equal to [ 'hello' ]",
+					"start": "2017-08-31T06:57:03.497Z",
+					"end": "2017-08-31T06:57:03.535Z",
+					"duration": 38,
 					"state": "pass"
 				}
 			],
@@ -451,13 +451,13 @@
 		{
 			"name": "`wichis( 0, { }, [ ] )`",
 			"duration": 45,
-			"start": "2017-08-31T06:52:32.732Z",
-			"end": "2017-08-31T06:52:32.777Z",
+			"start": "2017-08-31T06:57:03.535Z",
+			"end": "2017-08-31T06:57:03.580Z",
 			"tests": [
 				{
-					"name": "should return [ ]",
-					"start": "2017-08-31T06:52:32.732Z",
-					"end": "2017-08-31T06:52:32.777Z",
+					"name": "should be equal to [ ]",
+					"start": "2017-08-31T06:57:03.535Z",
+					"end": "2017-08-31T06:57:03.580Z",
 					"duration": 45,
 					"state": "pass"
 				}
@@ -467,14 +467,14 @@
 		{
 			"name": "`wichis( 0, { }, true )`",
 			"duration": 41,
-			"start": "2017-08-31T06:52:32.777Z",
-			"end": "2017-08-31T06:52:32.818Z",
+			"start": "2017-08-31T06:57:03.580Z",
+			"end": "2017-08-31T06:57:03.621Z",
 			"tests": [
 				{
-					"name": "should return true",
-					"start": "2017-08-31T06:52:32.777Z",
-					"end": "2017-08-31T06:52:32.817Z",
-					"duration": 40,
+					"name": "should be equal to true",
+					"start": "2017-08-31T06:57:03.580Z",
+					"end": "2017-08-31T06:57:03.621Z",
+					"duration": 41,
 					"state": "pass"
 				}
 			],
@@ -482,14 +482,14 @@
 		},
 		{
 			"name": "`wichis( null, undefined, NaN.toString( ), true )`",
-			"duration": 45,
-			"start": "2017-08-31T06:52:32.818Z",
-			"end": "2017-08-31T06:52:32.863Z",
+			"duration": 44,
+			"start": "2017-08-31T06:57:03.621Z",
+			"end": "2017-08-31T06:57:03.665Z",
 			"tests": [
 				{
-					"name": "should return 'NaN'",
-					"start": "2017-08-31T06:52:32.818Z",
-					"end": "2017-08-31T06:52:32.860Z",
+					"name": "should be equal to 'NaN'",
+					"start": "2017-08-31T06:57:03.621Z",
+					"end": "2017-08-31T06:57:03.663Z",
 					"duration": 42,
 					"state": "pass"
 				}
@@ -498,15 +498,15 @@
 		},
 		{
 			"name": "`wichis with empty object and instance of class named 'ClassA'`",
-			"duration": 47,
-			"start": "2017-08-31T06:52:32.863Z",
-			"end": "2017-08-31T06:52:32.910Z",
+			"duration": 41,
+			"start": "2017-08-31T06:57:03.665Z",
+			"end": "2017-08-31T06:57:03.706Z",
 			"tests": [
 				{
-					"name": "should return instance of class named 'ClassA'",
-					"start": "2017-08-31T06:52:32.863Z",
-					"end": "2017-08-31T06:52:32.910Z",
-					"duration": 47,
+					"name": "should be equal to instance of class named 'ClassA'",
+					"start": "2017-08-31T06:57:03.666Z",
+					"end": "2017-08-31T06:57:03.706Z",
+					"duration": 40,
 					"state": "pass"
 				}
 			],
@@ -514,15 +514,15 @@
 		},
 		{
 			"name": "`wichis with instance of class named 'ClassA' and empty object`",
-			"duration": 38,
-			"start": "2017-08-31T06:52:32.910Z",
-			"end": "2017-08-31T06:52:32.948Z",
+			"duration": 37,
+			"start": "2017-08-31T06:57:03.706Z",
+			"end": "2017-08-31T06:57:03.743Z",
 			"tests": [
 				{
-					"name": "should return { }",
-					"start": "2017-08-31T06:52:32.910Z",
-					"end": "2017-08-31T06:52:32.947Z",
-					"duration": 37,
+					"name": "should be equal to { }",
+					"start": "2017-08-31T06:57:03.706Z",
+					"end": "2017-08-31T06:57:03.742Z",
+					"duration": 36,
 					"state": "pass"
 				}
 			],
